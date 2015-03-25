@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		96F235B7DF2F5A58F399DA72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B676C71791233EA91125C8D1 /* libPods.a */; };
 		AF3F075FAA4D380614356CA9 /* FMDBY.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF3F0E702A044EF2261426D2 /* FMDBY.h */; };
-		AF3F09EAB3378C0E35E0EE38 /* FMDBY.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3F024685B477705DDC7D0C /* FMDBY.m */; };
 		AF3F0E50E168CB70C5E62CDB /* libFMDBY.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3F004A8695C623FCE9D856 /* libFMDBY.a */; };
 		DF778B32B09F550DEDF9E5A5 /* libPods-FMDBYTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E38279EF0A68C48D205CD40 /* libPods-FMDBYTests.a */; };
 /* End PBXBuildFile section */
@@ -42,7 +41,6 @@
 		1E38279EF0A68C48D205CD40 /* libPods-FMDBYTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FMDBYTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9A2FB14C724E36B0E86D9D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF3F004A8695C623FCE9D856 /* libFMDBY.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFMDBY.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF3F024685B477705DDC7D0C /* FMDBY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBY.m; sourceTree = "<group>"; };
 		AF3F03ED6017C79721FC0347 /* FMDBYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMDBYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3F09FD085487F53D9B6FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF3F0E702A044EF2261426D2 /* FMDBY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBY.h; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				AF3F0E702A044EF2261426D2 /* FMDBY.h */,
-				AF3F024685B477705DDC7D0C /* FMDBY.m */,
 			);
 			path = FMDBY;
 			sourceTree = "<group>";
@@ -125,8 +122,8 @@
 		AF3F0BD87167905A2CD896C5 = {
 			isa = PBXGroup;
 			children = (
-				AF3F03F7CE88DD6A1F69E56E /* Products */,
 				AF3F0B89F32B3FAB16183167 /* FMDBY */,
+				AF3F03F7CE88DD6A1F69E56E /* Products */,
 				AF3F0520E9E2D4DC64DF170C /* FMDBYTests */,
 				12DD3E8D766A850CE08ABF79 /* Pods */,
 				7571AFE54D673CA4B0BB0A12 /* Frameworks */,
@@ -294,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3F09EAB3378C0E35E0EE38 /* FMDBY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

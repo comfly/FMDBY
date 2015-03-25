@@ -6,8 +6,5 @@
 //  Copyright (c) 2015 comfly. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
-@interface FMDBY : NSObject
-
-@end
